@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewBag.Title = "Sanpham";
+    Layout = "~/Views/Shared/_LayoutTra.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png" />
+
+    <title>Tea</title>
+
+    <!-- FONT-AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <!-- BOOTSTRAP  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- glidejs  -->
+    <link rel="stylesheet" href="./assets/css/glide.core.min.css">
+    <link rel="stylesheet" href="./assets/css/glide.theme.min.css">
+
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/product.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+</head>
+<body>
+
+
+    <!-- END HEADER  -->
+    <!-- SECTION BANNER -->
+    <section class="banner__product">
+        <div class="banner-title">
+            <h2>SẢN PHẨM</h2>
+        </div>
+    </section>
+
+    <!-- SECTION PRODUCT  -->
+    <section class="wrapper__product">
+        <div class="container">
+            <span class="desc-top">Trang chủ > Sản Phẩm </span>
+            <h2>Sản Phẩm</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <span class="bo-loc-san-phamm">Bộ lọc sản phẩm</span>
+
+                    <div class="loai-san-pham">
+                        <h4>Loại sản phẩm</h4>
+                        <div id="Loaisp">
+
+                        </div>
+
+                    </div>
+                    <div class="gia-thanh">
+                        <h4>Giá thành</h4>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <p>Từ 50000 đến 200000<span id="demo"></span></p>
+                        </div>
+                    </div>
+
+                    <div class="thuong-hieu">
+                        <h4>Thương hiệu</h4>
+                        <div id="Thuonghieu">
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-9">
+                    <form>
+                        <div class="form-row justify-content-end">
+                            <div class="col-auto my-1">
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option selected>Thứ tự mặc định</option>
+                                    <option value="1">Giá thấp đến cao</option>
+                                    <option value="2">Giá cao đến thấp</option>
+                                    <option value="3">Xếp theo đánh giá</option>
+                                    <option value="3">Xếp theo phổ biến</option>
+                                </select>
+                            </div>
+
+                        </div>
+                    </form>
+                    <div class="container">
+                        <div class="row" id="allSP">
+
+                        </div>
+                        <ul class="pagination">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span class="icon"> ››</span>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- GLidejs -->
+
+<script src="../assets/js/main.js"></script>
+
+<!-- AOS  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+</html>

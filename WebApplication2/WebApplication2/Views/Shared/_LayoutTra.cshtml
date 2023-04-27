@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="~/assets//img/favicon.png" />
+
+    <title>Trà sen Bách Diệp</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="~/assets//css/base.css" />
+    <link rel="stylesheet" href="~/assets//css/index.css" />
+</head>
+<body>
+    <div class="app">
+        <!-- Header start -->
+        <div class="grid">
+            <div class="app__header">
+                <div class="header__logo">
+                    <img src="~/assets//img/home/logophongtra.png"
+                         alt="Logo"
+                         class="header__logo-img" />
+                </div>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="@Url.Action("Trangchu", "Tra")" class="header__nav-link">TRANG CHỦ</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="@Url.Action("Gioithieu", "Tra")" class="header__nav-link">GIỚI THIỆU</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="@Url.Action("Sanpham", "Tra")" class="header__nav-link">SẢN PHẨM</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="@Url.Action("Tintuc", "Tra")" class="header__nav-link">TIN TỨC</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="@Url.Action("lienhe", "Tra")" class="header__nav-link">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container_all">
+            @RenderBody()
+
+        </div>
+        <!-- Footer start -->
+        <footer class="app__footer">
+            <div class="footer__address">
+                <img src="~/assets//img/home/logophongtra.png"
+                     alt=""
+                     class="address__img" />
+                <p class="address__detail">0966777833</p>
+                <p class="address__detail">Trasenbachdiep@gmail.com</p>
+                <p class="address__detail">12 Quang An, Tay Ho, Ha Noi</p>
+            </div>
+            <div class="footer__about">
+                <h4 class="about__title">VỀ CHÚNG TÔI</h4>
+                <p class="about__detail"><a href="">Giới thiệu</a></p>
+                <p class="about__detail"><a href="">Sản phẩm</a></p>
+                <p class="about__detail"><a href="">Tin Tức</a></p>
+            </div>
+            <div class="footer__contact">
+                <h4 class="contact__title">Liên Hệ</h4>
+                <div class="contact__social">
+                    <a href="" class="social__link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="" class="social__link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" class="social__link">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </div>
+                <p class="contact__text">Coppyright© 2010 - 2023</p>
+                <p class="contact__text">Trà Sen Bích Diệp. All right reserved</p>
+            </div>
+        </footer>
+        <!-- Footer end -->
+    </div>
+</body>
+<script type="text/javascript"
+        src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="~/assets//js/index.js"></script>
+<script src="~/assets/js/Tra.js"></script>
+
+</html>
+

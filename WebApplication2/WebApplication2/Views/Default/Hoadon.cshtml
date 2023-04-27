@@ -1,0 +1,681 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hóa Đơn</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/assets/css/mainAdmin.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SortName();
+        });
+        function SortName() {
+
+            $.ajax({
+                url: `https://localhost:44336/api/hoadon/`,
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    reponse.sort(function (a, b) {
+                        var nameA = a.SoHDB.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        var nameB = b.SoHDB.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        if (nameA < nameB) {
+                            return -1;
+                        }
+                        if (nameA > nameB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].SoHDB + '</td>';
+                        table = table + '<td>' + reponse[i].MaKH + '</td>';
+                        table = table + '<td>' + reponse[i].Ngayban + '</td>';
+                        table = table + '<td>' + reponse[i].Tongtien + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allSort').html(table);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllHoadon();
+        });
+        function GetAllHoadon() {
+            $.ajax({
+                url: 'https://localhost:44336/api/hoadon/',
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) { },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].SoHDB + '</td>';
+                        table = table + '<td>' + reponse[i].MaKH + '</td>';
+                        table = table + '<td>' + reponse[i].Ngayban + '</td>';
+                        table = table + '<td>' + reponse[i].Tongtien + '</td>';
+                        table = table + '</tr>';
+                    }
+                    document.getElementById('allHD').innerHTML = table;
+                },
+                fail: function (response) { }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTPPOST
+        function insertKhachHang() {
+            var url = 'https://localhost:44336/api/hoadon?id=' + $('input').eq(0).val() +
+                '&makh=' + $('input').eq(1).val() + '&ngayban=' + $('input').eq(2).val() +
+                '&tongtien=' + $('input').eq(3).val();
+            $.ajax({
+                url: url,
+                method: 'POST',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    alert("Thêm mới không thành công");
+
+                },
+                success: function (reponse) {
+                    alert("Thêm mới thành công");
+                    GetAllHoadon();
+                    SortName();
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function UpdateDL() {
+            var sohdb = $("#txtsuama").val();
+            var makh = $("#txtsuaten").val();
+            var ngayban = $("#txtsuadiachi").val();
+            var tongtien = $("#txtsuasdt").val();
+
+
+            if (sohdb && makh && ngayban && tongtien) {
+                var url = 'https://localhost:44336/api/hoadon?id=' + sohdb + '&makh=' + makh +
+                    '&ngayban=' + ngayban + '&tongtien=' + tongtien;
+                $.ajax({
+                    url: url,
+                    method: 'PUT',
+                    contentType: 'json',
+                    dataType: 'json',
+                    error: function (response) {
+                        alert("Sửa không thành công");
+                    },
+                    success: function (reponse) {
+                        alert("Sửa thành công");
+                        GetAllHoadon();//Gọi đến hàm lấy dữ liệu lên bảng
+                        SortName();
+                    }
+                });
+            } else {
+                alert("Vui lòng nhập đầy đủ thông tin ");
+            }
+        }
+    </script>
+    <script>
+        function DeleteDL() {
+            var maDL = $('#txtxoa').val(); // Lấy mã đại lý từ input
+            if (maDL) { // Nếu mã đại lý không rỗng
+                $.ajax({
+                    url: 'https://localhost:44336/api/hoadon/' + maDL, // Đường dẫn tới API xóa đại lý với mã tương ứng
+                    type: 'DELETE',
+                    success: function (result) {
+                        alert('Xóa sách thành công!');
+                        GetAlHoadon();
+                    },
+                    error: function (xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            } else {
+                alert('Vui lòng nhập mã của hóa đơn cần xóa!');
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function timhd() {
+            var id = $('#txthdtimkiem').val();
+            $.ajax({
+                url: `https://localhost:44336/api/hoadon/SearchHoadonById/${id}`,
+
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].SoHDB + '</td>';
+                        table = table + '<td>' + reponse[i].MaKH + '</td>';
+                        table = table + '<td>' + reponse[i].Ngayban + '</td>';
+                        table = table + '<td>' + reponse[i].Tongtien + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allHD').html(table);
+                }
+            });
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SortNameCT();
+        });
+        function SortNameCT() {
+
+            $.ajax({
+                url: `https://localhost:44336/api/cthoadon/`,
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    reponse.sort(function (a, b) {
+                        var nameA = a.SoHDB.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        var nameB = b.SoHDB.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        if (nameA < nameB) {
+                            return -1;
+                        }
+                        if (nameA > nameB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].SoHDB + '</td>';
+                        table = table + '<td>' + reponse[i].MaSP + '</td>';
+                        table = table + '<td>' + reponse[i].SL + '</td>';
+                        table = table + '<td>' + reponse[i].Giamua + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allSortCT').html(table);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllCthoadon();
+        });
+        function GetAllCthoadon() {
+            $.ajax({
+                url: 'https://localhost:44336/api/cthoadon/',
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) { },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].SoHDB + '</td>';
+                        table = table + '<td>' + reponse[i].MaSP + '</td>';
+                        table = table + '<td>' + reponse[i].SL + '</td>';
+                        table = table + '<td>' + reponse[i].Giamua + '</td>';
+                        table = table + '</tr>';
+                    }
+                    document.getElementById('allCTHD').innerHTML = table;
+                },
+                fail: function (response) { }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTPPOST
+        function insertKhachHangCT() {
+            var url = 'https://localhost:44336/api/cthoadon?id=' + $('input').eq(0).val() +
+                '&masp=' + $('input').eq(1).val() + '&soluong=' + $('input').eq(2).val() +
+                '&giamua=' + $('input').eq(3).val();
+            $.ajax({
+                url: url,
+                method: 'POST',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    alert("Thêm mới không thành công");
+
+                },
+                success: function (reponse) {
+                    alert("Thêm mới thành công");
+                    GetAllCthoadon();
+                    SortNameCT();
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function UpdateDL() {
+            var sohdbct = $("#txtsuasohdbct").val();
+            var masp = $("#txtsuamasp").val();
+            var soluong = $("#txtsuasoluong").val();
+            var giamua = $("#txtsuagiamua").val();
+
+
+            if (sohdbct && masp && soluong && giamua) {
+                var url = 'https://localhost:44336/api/cthoadon?id=' + sohdb + '&masp=' + masp +
+                    '&soluong=' + soluong + '&giamua=' + giamua;
+                $.ajax({
+                    url: url,
+                    method: 'PUT',
+                    contentType: 'json',
+                    dataType: 'json',
+                    error: function (response) {
+                        alert("Sửa không thành công");
+                    },
+                    success: function (reponse) {
+                        alert("Sửa thành công");
+                        GetAllCthoadon();//Gọi đến hàm lấy dữ liệu lên bảng
+                        SortNameCT();
+                    }
+                });
+            } else {
+                alert("Vui lòng nhập đầy đủ thông tin ");
+            }
+        }
+    </script>
+    <script>
+        function DeleteDLCT() {
+            var maDLCT = $('#txtxoact').val(); // Lấy mã đại lý từ input
+            if (maDLCT) { // Nếu mã đại lý không rỗng
+                $.ajax({
+                    url: 'https://localhost:44336/api/cthoadon/' + maDLCT, // Đường dẫn tới API xóa đại lý với mã tương ứng
+                    type: 'DELETE',
+                    success: function (result) {
+                        alert('Xóa sách thành công!');
+                        GetAlCthoadon();
+                    },
+                    error: function (xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            } else {
+                alert('Vui lòng nhập mã của hóa đơn cần xóa!');
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function timcthd() {
+            var id = $('#txtcthdtimkiem').val();
+            $.ajax({
+                url: `https://localhost:44336/api/cthoadon/SearchCthoadonById/${id}`,
+
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].SoHDB + '</td>';
+                        table = table + '<td>' + reponse[i].MaSP + '</td>';
+                        table = table + '<td>' + reponse[i].SL + '</td>';
+                        table = table + '<td>' + reponse[i].Giamua + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allCTHD').html(table);
+                }
+            });
+        }
+    </script>
+
+    
+</head>
+<body>
+    <div class="top-section" style="display: inline-flex;">
+        <div class="col-12 col-lg-6" style="display: inline-block;">
+            <div class="logo" style="display: inline-block;">
+                <a href="#"><img src="~/assets/img/home/logophongtra.png" /></a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6" style="display: inline-block;">
+            <a class=" btn btn-danger rounded" href="@Url.Action("Trangchu", "Tra")">Home</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Sanpham", "Default")">Sản phẩm</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Khachhang", "Default")">Khách hàng</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Hoadon", "Default")">Hóa đơn</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Tintuc", "Default")">Tin tức</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Nghenhan", "Default")">Nghệ nhân</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Dactinh", "Default")">Đặc tính</a>
+        </div>
+
+    </div>
+    <div>
+        <div>
+            <h3 style="text-align:center;">Danh Sách Hóa Đơn</h3>
+            <table id="tSach" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Số HDB</th>
+                        <th>Mã KH</th>
+                        <th>Ngày bán</th>
+                        <th>Tổng tiền</th>
+                    </tr>
+                </thead>
+                <tbody id="allHD"></tbody>
+            </table>
+        </div>
+        <div class="d-flex clearfix">
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Số HDB: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtMK" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Mã KH: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Mã KH" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ngày bán: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="DiaChi" placeholder="Ngày bán" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tổng tiền: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtDT" type="text" name="DienThoai" placeholder="Tổng tiền" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="insertKhachHang();">
+                                        Thêm mới
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:200px">Số HDB cần sửa: </td>
+                                <td>
+                                    <input id="txtsuama" style="width:250px; height:30px;" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Mã KH sửa: </td>
+                                <td>
+                                    <input id="txtsuaten" style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Mã KH" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ngày bán sửa: </td>
+                                <td>
+                                    <input id="txtsuadiachi" style="width:250px; height:30px;" type="text" name="DienThoai" placeholder="Ngày bán" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tổng tiền sửa: </td>
+                                <td>
+                                    <input id="txtsuasdt" style="width:250px; height:30px;" type="text" name="DiaChi" placeholder="Tổng tiền" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="UpdateDL();">
+                                        Sửa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Số HDB: </td>
+                                <td>
+                                    <input id="txtxoa" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="DeleteDL();">
+                                        Xóa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody class="form-control">
+                            <tr>
+                                <td>Số HDB cần tìm kiếm: </td>
+                                <td>
+                                    <input id="txthdtimkiem" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="timhd();">
+                                        Tìm
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+
+        <hr style="border: 5px solid black; height: 5px;" />
+        
+        <div>
+            <h3 style="text-align:center;">Chi Tiết Hóa Đơn</h3>
+            <table id="tSach" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Số HDB</th>
+                        <th>Mã SP</th>
+                        <th>Số lượng</th>
+                        <th>Giá mua</th>
+                    </tr>
+                </thead>
+                <tbody id="allCTHD"></tbody>
+            </table>
+        </div>
+        <div class="d-flex clearfix">
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Số HDB: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtMK" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Mã SP: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Mã SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Số lượng: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="DiaChi" placeholder="Số lượng" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giá mua: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtDT" type="text" name="DienThoai" placeholder="Giá mua" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="insertKhachHangCT();">
+                                        Thêm mới
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:200px">Số HDB cần sửa: </td>
+                                <td>
+                                    <input id="txtsuasohdbct" style="width:250px; height:30px;" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Mã SP sửa: </td>
+                                <td>
+                                    <input id="txtsuamasp" style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Mã SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Số lượng sửa: </td>
+                                <td>
+                                    <input id="txtsuasoluong" style="width:250px; height:30px;" type="text" name="DienThoai" placeholder="Số lượng" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giá mua sửa: </td>
+                                <td>
+                                    <input id="txtsuagiamua" style="width:250px; height:30px;" type="text" name="DiaChi" placeholder="Giá mua" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="UpdateDLCT();">
+                                        Sửa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Số HDB: </td>
+                                <td>
+                                    <input id="txtxoact" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="DeleteDLCT();">
+                                        Xóa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody class="form-control">
+                            <tr>
+                                <td>Số HDB cần tìm kiếm: </td>
+                                <td>
+                                    <input id="txtcthdtimkiem" type="text" name="MaKhach" placeholder="Số HDB" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="timcthd();">
+                                        Tìm
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+    <script src="~/Amado/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="~/Amado/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="~/Amado/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="~/Amado/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="~/Amado/js/active.js"></script>
+</body>
+</html>

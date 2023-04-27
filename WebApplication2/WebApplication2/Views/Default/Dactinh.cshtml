@@ -1,0 +1,610 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đặc Tính</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/assets/css/mainAdmin.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SortName();
+        });
+        function SortName() {
+
+            $.ajax({
+                url: `https://localhost:44336/api/loaisp/`,
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    reponse.sort(function (a, b) {
+                        var nameA = a.Tenloaisp.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        var nameB = b.Tenloaisp.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        if (nameA < nameB) {
+                            return -1;
+                        }
+                        if (nameA > nameB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].Maloaisp + '</td>';
+                        table = table + '<td>' + reponse[i].Tenloaisp + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allSort').html(table);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllLoaisp();
+        });
+        function GetAllLoaisp() {
+            $.ajax({
+                url: 'https://localhost:44336/api/loaisp/',
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) { },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].Maloaisp + '</td>';
+                        table = table + '<td>' + reponse[i].Tenloaisp + '</td>';
+                        table = table + '</tr>';
+                    }
+                    document.getElementById('allLSP').innerHTML = table;
+                },
+                fail: function (response) { }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTPPOST
+        function insertKhachHang() {
+            var url = 'https://localhost:44336/api/loaisp?id=' + $('input').eq(0).val() +
+                '&name=' + $('input').eq(1).val();
+            $.ajax({
+                url: url,
+                method: 'POST',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    alert("Thêm mới không thành công");
+
+                },
+                success: function (reponse) {
+                    alert("Thêm mới thành công");
+                    GetAllLoaisp();
+                    SortName();
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function UpdateDL() {
+            var malsp = $("#txtsuama").val();
+            var tenlsp = $("#txtsuaten").val();
+
+
+            if (malsp && tenlsp) {
+                var url = 'https://localhost:44336/api/loaisp?id=' + malsp + '&name=' + tenlsp;
+                $.ajax({
+                    url: url,
+                    method: 'PUT',
+                    contentType: 'json',
+                    dataType: 'json',
+                    error: function (response) {
+                        alert("Sửa không thành công");
+                    },
+                    success: function (reponse) {
+                        alert("Sửa thành công");
+                        GetAllLoaisp();//Gọi đến hàm lấy dữ liệu lên bảng
+                        SortName();
+                    }
+                });
+            } else {
+                alert("Vui lòng nhập đầy đủ thông tin ");
+            }
+        }
+    </script>
+    <script>
+        function DeleteDL() {
+            var maDL = $('#txtxoa').val(); // Lấy mã đại lý từ input
+            if (maDL) { // Nếu mã đại lý không rỗng
+                $.ajax({
+                    url: 'https://localhost:44336/api/loaisp/' + maDL, // Đường dẫn tới API xóa đại lý với mã tương ứng
+                    type: 'DELETE',
+                    success: function (result) {
+                        alert('Xóa sách thành công!');
+                        GetAllLoaisp();
+                    },
+                    error: function (xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            } else {
+                alert('Vui lòng nhập mã của loại sp cần xóa!');
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function timlsp() {
+            var name = $('#txtlsptimkiem').val();
+            $.ajax({
+                url: `https://localhost:44336/api/loaisp/SearchLoaispByName/${name}`,
+
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].Maloaisp + '</td>';
+                        table = table + '<td>' + reponse[i].Tenloaisp + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allLSP').html(table);
+                }
+            });
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SortNameCT();
+        });
+        function SortNameCT() {
+
+            $.ajax({
+                url: `https://localhost:44336/api/thuonghieu/`,
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    reponse.sort(function (a, b) {
+                        var nameA = a.Tenth.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        var nameB = b.Tenth.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        if (nameA < nameB) {
+                            return -1;
+                        }
+                        if (nameA > nameB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].Math + '</td>';
+                        table = table + '<td>' + reponse[i].Tenth + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allSortCT').html(table);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllThuonghieu();
+        });
+        function GetAllThuonghieu() {
+            $.ajax({
+                url: 'https://localhost:44336/api/thuonghieu/',
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) { },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].Math + '</td>';
+                        table = table + '<td>' + reponse[i].Tenth + '</td>';
+                        table = table + '</tr>';
+                    }
+                    document.getElementById('allTH').innerHTML = table;
+                },
+                fail: function (response) { }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTPPOST
+        function insertKhachHangCT() {
+            var url = 'https://localhost:44336/api/thuonghieu?id=' + $('input').eq(0).val() +
+                '&name=' + $('input').eq(1).val();
+            $.ajax({
+                url: url,
+                method: 'POST',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    alert("Thêm mới không thành công");
+
+                },
+                success: function (reponse) {
+                    alert("Thêm mới thành công");
+                    GetAllThuonghieu();
+                    
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function UpdateDLCT() {
+            var math = $("#txtsuamath").val();
+            var tenth = $("#txtsuatenth").val();
+
+
+            if (math && tenth) {
+                var url = 'https://localhost:44336/api/thuonghieu?id=' + math + '&name=' + tenth;
+                $.ajax({
+                    url: url,
+                    method: 'PUT',
+                    contentType: 'json',
+                    dataType: 'json',
+                    error: function (response) {
+                        alert("Sửa không thành công");
+                    },
+                    success: function (reponse) {
+                        alert("Sửa thành công");
+                        GetAllThuonghieu();//Gọi đến hàm lấy dữ liệu lên bảng
+                        SortNameCT();
+                    }
+                });
+            } else {
+                alert("Vui lòng nhập đầy đủ thông tin ");
+            }
+        }
+    </script>
+    <script>
+        function DeleteDLCT() {
+            var maDLCT = $('#txtxoact').val(); // Lấy mã đại lý từ input
+            if (maDLCT) { // Nếu mã đại lý không rỗng
+                $.ajax({
+                    url: 'https://localhost:44336/api/thuonghieu/' + maDLCT, // Đường dẫn tới API xóa đại lý với mã tương ứng
+                    type: 'DELETE',
+                    success: function (result) {
+                        alert('Xóa sách thành công!');
+                        GetAlThuonghieu();
+                    },
+                    error: function (xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            } else {
+                alert('Vui lòng nhập mã của thương hiệu cần xóa!');
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function timth() {
+            var name = $('#txtthtimkiem').val();
+            $.ajax({
+                url: `https://localhost:44336/api/thuonghieu/SearchThuonghieuByName/${name}`,
+
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].Math + '</td>';
+                        table = table + '<td>' + reponse[i].Tenth + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allTH').html(table);
+                }
+            });
+        }
+    </script>
+
+    
+</head>
+<body>
+    <div class="top-section" style="display: inline-flex;">
+        <div class="col-12 col-lg-6" style="display: inline-block;">
+            <div class="logo" style="display: inline-block;">
+                <a href="#"><img src="~/assets/img/home/logophongtra.png" /></a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6" style="display: inline-block;">
+            <a class=" btn btn-danger rounded" href="@Url.Action("Trangchu", "Tra")">Trangchu</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Sanpham", "Default")">Sản phẩm</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Khachhang", "Default")">Khách hàng</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Hoadon", "Default")">Hóa đơn</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Tintuc", "Default")">Tin tức</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Nghenhan", "Default")">Nghệ nhân</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Dactinh", "Default")">Đặc tính</a>
+
+        </div>
+
+    </div>
+    <div>
+        <div>
+            <h3 style="text-align:center;">Danh Sách Loại SP</h3>
+            <table id="tSach" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã loại SP</th>
+                        <th>Tên loại SP</th>
+                    </tr>
+                </thead>
+                <tbody id="allLSP"></tbody>
+            </table>
+        </div>
+        <div class="d-flex clearfix">
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Mã loại SP: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtMK" type="text" name="MaKhach" placeholder="Mã loại SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Tên loại SP: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Tên loại SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="insertKhachHang();">
+                                        Thêm mới
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:200px">Mã loại SP cần sửa: </td>
+                                <td>
+                                    <input id="txtsuama" style="width:250px; height:30px;" type="text" name="MaKhach" placeholder="Mã Loại SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Tên loại SP sửa: </td>
+                                <td>
+                                    <input id="txtsuaten" style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Tên loại SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="UpdateDL();">
+                                        Sửa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Mã loại SP: </td>
+                                <td>
+                                    <input id="txtxoa" type="text" name="MaKhach" placeholder="Mã loại SP" />
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="DeleteDL();">
+                                        Xóa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody class="form-control">
+                            <tr>
+                                <td>Tên loại SP cần tìm kiếm: </td>
+                                <td>
+                                    <input id="txtlsptimkiem" type="text" name="MaKhach" placeholder="Tên loại SP" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="timlsp();">
+                                        Tìm
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <hr style="border: 5px solid black; height: 5px;" />
+
+        <div>
+            <h3 style="text-align:center;">Danh Sách Thương Hiệu</h3>
+            <table id="tSach" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã thương hiệu</th>
+                        <th>Tên thương hiệu</th>
+                    </tr>
+                </thead>
+                <tbody id="allTH"></tbody>
+            </table>
+        </div>
+        <div class="d-flex clearfix">
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Mã thương hiệu: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtMK" type="text" name="MaKhach" placeholder="Mã thương hiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Tên thương hiệu: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Tên thương hiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="insertKhachHangCT();">
+                                        Thêm mới
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:200px">Mã thương hiệu cần sửa: </td>
+                                <td>
+                                    <input id="txtsuamath" style="width:250px; height:30px;" type="text" name="MaKhach" placeholder="Mã thương hiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Tên thương hiệu sửa: </td>
+                                <td>
+                                    <input id="txtsuatenth" style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Tên thương hiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="UpdateDLCT();">
+                                        Sửa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="col">
+                    <table class="table">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Mã thương hiệu: </td>
+                                <td>
+                                    <input id="txtxoact" type="text" name="MaKhach" placeholder="Mã thương hiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="DeleteDLCT();">
+                                        Xóa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody class="form-control">
+                            <tr>
+                                <td>Tên thương hiệu cần tìm kiếm: </td>
+                                <td>
+                                    <input id="txtthtimkiem" type="text" name="MaKhach" placeholder="Tên thương hiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="timth();">
+                                        Tìm
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+    <script src="~/Amado/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="~/Amado/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="~/Amado/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="~/Amado/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="~/Amado/js/active.js"></script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+﻿
+@{
+    ViewBag.Title = "chitietsanpham";
+    Layout = "~/Views/Shared/_LayoutTra.cshtml";
+}
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="../assets/img/favicon.png" />
+
+<title>Tea</title>
+
+<!-- FONT-AWESOME  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+<!-- BOOTSTRAP  -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- glidejs  -->
+<link rel="stylesheet" href="../assets/css/glide.core.min.css">
+<link rel="stylesheet" href="../assets/css/glide.theme.min.css">
+
+<!-- CSS  -->
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/product_detail.css">
+<link rel="stylesheet" href="../assets/css/index.css">
+
+
+<body>
+
+
+    <!-- END HEADER  -->
+    <!-- SECTION CHI TIẾT SP -->
+    <section class="wrapper__productDetails">
+
+        <div class="container">
+            <span>Trang chủ > Sản Phẩm > Chi tiết sản phẩm</span>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="san-pham-img">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 col-6">
+                                    <div class="img-left">
+                                        <img src="../assets/img/product_detail/img-1.jpg" alt="img1" id="img1">
+                                        <img src="../assets/img/product_detail/img-1.jpg" alt="img1" id="img2">
+                                        <img src="../assets/img/product_detail/img-1.jpg" alt="img1" id="img3">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="img-right">
+                                        <img src="../assets/img/product_detail/main.jpg" alt="img-main" id="img4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 id="ten">Trả Shan Tuyết</h4>
+                    <div class="item_producDetail">
+                        <div class="star">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span class="danhGia"> 71 đánh giá</span>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div class="price">
+                            <span>50,000 <sub>VND</sub></span>
+                            <span class="trongluong">
+                                <select name="khoiluong" id="khoiLuong">
+                                    <option value="1">200g</option>
+                                    <option value="2">300g</option>
+                                    <option value="3">500g</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <h5 id="mota">SẢN PHẨM ĐẠT CHUẨN VỆ SINH AN TOÀN THỰC PHẨM</h5>
+                            <p>Trà Shan Tuyết (Chè Shan Tuyết) hay còn được gọi là trà tuyết .Đây là loại trà đặc sản của các đồng bào tộc người Tày,Giao,Mông và là đặc sản của các tỉnh như Hà Giang,Điện Biên,Lào Cai.</p>
+                            <p>Đặc điểm của trà Shan Tuyết là búp trà (cách trà) rất to và màu trắng ,dưới cánh trà phủ 1 lớp lông tơ mìn màu trắng.</p>
+                            <p>
+                                Cây trà Shan Tuyết cổ thụ rất lớn, có khi vài người lớn vòng tay ôm.Mọc ở trên núi cao hơn 1200m,quanh năm mây mù và lạnh. Sự chênh lệch nhiệt độ giữa ngày và đêm là rất lớn,chính bởi có điều kiện tự nhiên thú vị như vậy
+                                nên đó là nét độc đáo tạo ra một hương vị trà shan tuyết cổ thụ thơm ngon.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper__huong-dan">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="desc_huong-dan">
+                        <h3>Hướng dẫn cách pha <span id="ten"></span></h3>
+
+                    </div>
+                    <div class="title d-flex">
+                        <div class="icons-item">
+                            <i class="fas fa-burn"></i>
+                        </div>
+                        <div class="desc-item">
+                            <p>Đổ vào ấm từ 150 - 200 ml,nước sôi nhiệt độ 85 <sup>oC</sup></p>
+                        </div>
+                    </div>
+                    <div class="title d-flex">
+                        <div class="icons-item">
+                            <i class="fas fa-screwdriver"></i>
+                        </div>
+                        <div class="desc-item">
+                            <p>1 - 2 nắm trà, khoảng 20 - 30 gam</p>
+                        </div>
+                    </div>
+                    <div class="title d-flex">
+                        <div class="icons-item">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="desc-item">
+                            <p>Để trà: 4 - 6 phút</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="img">
+                        <img src="../assets/img/product_detail/phatra.jpg" alt="pha tra">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="wrapper__san-pham-lien-quan">
+        <h2>SẢN PHẨM LIÊN QUAN</h2>
+        <div class="glide_2">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="item__top d-flex">
+                            <div class="item__top-left">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="item__top-right">
+                                <a href="#" class="btn-new">New</a>
+                            </div>
+                        </div>
+                        <div class="item-product text-center">
+                            <img src="../assets/img/product/sanpham3.png" alt="sp1">
+                            <p>Trà Shan Tuyết</p>
+                            <div class="item__buttom">
+                                <span class="price">
+                                    50,000<sub>vnđ</sub>
+                                </span>
+                                <span class="trongluong">
+                                    <select name="khoiluong" id="khoiLuong">
+                                        <option value="1">200g</option>
+                                        <option value="2">300g</option>
+                                        <option value="3">500g</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="item__top d-flex">
+                            <div class="item__top-left">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="item__top-right">
+                                <a href="#" class="btn-new">New</a>
+                            </div>
+                        </div>
+                        <div class="item-product text-center">
+                            <img src="../assets/img/product/sanpham1.png" alt="sp1">
+                            <p>Trà Shan Tuyết</p>
+                            <div class="item__buttom">
+                                <span class="price">
+                                    50,000<sub>vnđ</sub>
+                                </span>
+                                <span class="trongluong">
+                                    <select name="khoiluong" id="khoiLuong">
+                                        <option value="1">200g</option>
+                                        <option value="2">300g</option>
+                                        <option value="3">500g</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="item__top d-flex">
+                            <div class="item__top-left">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="item__top-right">
+                                <a href="#" class="btn-new">New</a>
+                            </div>
+                        </div>
+                        <div class="item-product text-center">
+                            <img src="../assets/img/product/sanpham2.png" alt="sp1">
+                            <p>Trà Shan Tuyết</p>
+                            <div class="item__buttom">
+                                <span class="price">
+                                    50,000<sub>vnđ</sub>
+                                </span>
+                                <span class="trongluong">
+                                    <select name="khoiluong" id="khoiLuong">
+                                        <option value="1">200g</option>
+                                        <option value="2">300g</option>
+                                        <option value="3">500g</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="item__top d-flex">
+                            <div class="item__top-left">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                            </div>
+                            <div class="item__top-right">
+                                <a href="#" class="btn-new">New</a>
+                            </div>
+                        </div>
+                        <div class="item-product text-center">
+                            <img src="../assets/img/product/sanpham3.png" alt="sp1">
+                            <p>Trà Shan Tuyết</p>
+                            <div class="item__buttom">
+                                <span class="price">
+                                    50,000<sub>vnđ</sub>
+                                </span>
+                                <span class="trongluong">
+                                    <select name="khoiluong" id="khoiLuong">
+                                        <option value="1">200g</option>
+                                        <option value="2">300g</option>
+                                        <option value="3">500g</option>
+                                    </select>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-circle-left "></i></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-circle-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FOOTER  -->
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- GLidejs -->
+
+<script src="../assets/js/main.js"></script>
+<script>
+    function GetProductDetail() {
+        // Lấy mã sản phẩm từ tham số trong URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var productId = urlParams.get('id');
+
+        // Gọi API để lấy thông tin chi tiết của sản phẩm đó
+        $.ajax({
+            url: 'https://localhost:44336/api/SanPham/chitietsp/' + productId, // sửa lại đường dẫn để gọi dữ liệu từ tblKhach
+            method: 'GET',
+            contentType: 'json',
+            dataType: 'json',
+            error: function (reponse) {
+                alert("loi");
+            },
+            success: function (response) {
+                const product = response[0];
+                
+                $('#ten').text(product.TenSP);
+                $('#img4').attr('src', '../Image/' + product.AnhSP);
+                $('#mota').text(product.Mota);
+                
+            }
+
+        });
+    }
+
+    $(document).ready(function () {
+        GetProductDetail();
+    });
+</script>
+
+
+
+
+

@@ -1,0 +1,30 @@
+.wrapper__bai-viet {
+  padding-top: 10rem;
+  background-image: url(../images/bai-viet/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.wrapper__bai-viet h6 {
+  font-size: 2.6rem;
+}
+
+.wrapper__bai-viet p {
+  font-size: 1.6rem;
+}
+
+.wrapper__bai-viet .item-title .img {
+  width: 200px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.wrapper__bai-viet .item-title {
+  margin-bottom: 2rem;
+}
+
+.wrapper__bai-viet .item-title .desc a {
+  text-decoration: none;
+  color: #222222;
+}

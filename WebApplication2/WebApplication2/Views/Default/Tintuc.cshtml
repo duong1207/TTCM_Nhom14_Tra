@@ -1,0 +1,400 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Tin Tức</title>
+    
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/assets/css/mainAdmin.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SortName();
+        });
+        function SortName() {
+
+            $.ajax({
+                url: `https://localhost:44336/api/tintuc/`,
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    reponse.sort(function (a, b) {
+                        var nameA = a.Tieude.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        var nameB = b.Tieude.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        if (nameA < nameB) {
+                            return -1;
+                        }
+                        if (nameA > nameB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].MaTT + '</td>';
+                        table = table + '<td>' + reponse[i].Tieude + '</td>';
+                        table = table + '<td>' + reponse[i].Gioithieu + '</td>';
+                        table = table + '<td>' + reponse[i].Ngaytao + '</td>';
+                        table = table + '<td>' + reponse[i].Username + '</td>';
+                        table = table + '<td>' + '<img style="width:170px; height:140px;" src="../Image/' + reponse[i].AnhTT + '">' + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allSort').html(table);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllTintuc();
+        });
+        function GetAllTintuc() {
+            $.ajax({
+                url: 'https://localhost:44336/api/tintuc/',
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) { },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].MaTT + '</td>';
+                        table = table + '<td>' + reponse[i].Tieude + '</td>';
+                        table = table + '<td>' + reponse[i].Gioithieu + '</td>';
+                        table = table + '<td>' + reponse[i].Ngaytaott + '</td>';
+                        table = table + '<td>' + reponse[i].Username + '</td>';
+                        table = table + '<td>' + '<img style="width:170px; height:140px;" src="../Image/' + reponse[i].AnhTT + '">' + '</td>';
+                        table = table + '</tr>';
+                    }
+                    document.getElementById('allTT').innerHTML = table;
+                },
+                fail: function (response) { }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTPPOST
+        function insertKhachHang() {
+            var url = 'https://localhost:44336/api/tintuc?id=' + $('input').eq(0).val() +
+                '&name=' + $('input').eq(1).val() + '&gioithieu=' + $('input').eq(2).val() +
+                '&ngaytao=' + $('input').eq(3).val() + '&username=' + $('input').eq(4).val() +
+                '&anhtt=' + $('input').eq(5).val();
+            $.ajax({
+                url: url,
+                method: 'POST',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    alert("Thêm mới không thành công");
+
+                },
+                success: function (reponse) {
+                    alert("Thêm mới thành công");
+                    GetAllTintuc();
+                    SortName();
+                }
+            });
+        }
+    </script>
+
+    <script>
+        function UpdateDL() {
+            var matt = $("#txtsuama").val();
+            var tieude = $("#txtsuaten").val();
+            var gioithieu = $("#txtsuagioithieu").val();
+            var ngaytao = $("#txtsuangaytao").val();
+            var username = $("#txtsuausername").val();
+            var anhtt = $("#txtsuaanhtt").val();
+
+
+            if (matt && tieude && gioithieu && ngaytao && username && anhtt) {
+                var url = 'https://localhost:44336/api/tintuc?id=' + matt + '&name=' + tieude +
+                    '&gioithieu=' + gioithieu + '&ngaytao=' + ngaytao + '&username=' + username + '&anhtt=' + anhtt;
+                $.ajax({
+                    url: url,
+                    method: 'PUT',
+                    contentType: 'json',
+                    dataType: 'json',
+                    error: function (response) {
+                        alert("Sửa không thành công");
+                    },
+                    success: function (reponse) {
+                        alert("Sửa thành công");
+                        GetAllTintuc();//Gọi đến hàm lấy dữ liệu lên bảng
+                        SortName();
+                    }
+                });
+            } else {
+                alert("Vui lòng nhập đầy đủ thông tin ");
+            }
+        }
+    </script>
+    <script>
+        function DeleteDL() {
+            var maDL = $('#txtxoa').val(); // Lấy mã đại lý từ input
+            if (maDL) { // Nếu mã đại lý không rỗng
+                $.ajax({
+                    url: 'https://localhost:44336/api/tintuc/' + maDL, // Đường dẫn tới API xóa đại lý với mã tương ứng
+                    type: 'DELETE',
+                    success: function (result) {
+                        alert('Xóa sách thành công!');
+                        GetAllTintuc();
+                    },
+                    error: function (xhr, status, error) {
+                        alert(xhr.responseText);
+                    }
+                });
+            } else {
+                alert('Vui lòng nhập mã của tin tức cần xóa!');
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        function timtt() {
+            var name = $('#txttttimkiem').val();
+            $.ajax({
+                url: `https://localhost:44336/api/tintuc/SearchTintucByName/${name}`,
+
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        table = table + '<td>' + reponse[i].MaTT + '</td>';
+                        table = table + '<td>' + reponse[i].Tieude + '</td>';
+                        table = table + '<td>' + reponse[i].Gioithieu + '</td>';
+                        table = table + '<td>' + reponse[i].Ngaytao + '</td>';
+                        table = table + '<td>' + reponse[i].Username + '</td>';
+                        table = table + '<td>' + '<img style="width:170px; height:140px;" src="../Image/' + reponse[i].AnhTT + '">' + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allTT').html(table);
+                }
+            });
+        }
+    </script>
+
+</head>
+<body>
+    <div class="top-section" style="display: inline-flex;">
+        <div class="col-12 col-lg-6" style="display: inline-block;">
+            <div class="logo" style="display: inline-block;">
+                <a href="#">
+                    <img src="~/assets/img/home/logophongtra.png" />
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6" style="display: inline-block;">
+            <a class=" btn btn-danger rounded" href="@Url.Action("Trangchu", "Tra")">Home</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Sanpham", "Default")">Sản phẩm</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Khachhang", "Default")">Khách hàng</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Hoadon", "Default")">Hóa đơn</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Tintuc", "Default")">Tin tức</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Nghenhan", "Default")">Nghệ nhân</a>
+            <a class=" btn btn-danger rounded" href="@Url.Action("Dactinh", "Default")">Đặc tính</a>
+        </div>
+
+    </div>
+    <div class="main-content-wrapper d-flex clearfix">
+        <div class="col-12 col-lg-3">
+            <div class="book">
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Mã TT: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtMK" type="text" name="MaKhach" placeholder="Mã TT" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Tiêu đề: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Tiêu đề" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giới thiệu: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" type="text" name="DiaChi" placeholder="Giới thiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ngày tạo: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtDT" type="text" name="DienThoai" placeholder="Ngày tạo" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Username: </td>
+                                <td>
+                                    <input style="width:250px; height:30px;" id="txtDT" type="text" name="DienThoai" placeholder="Username" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ảnh TT: </td>
+                                <td>
+                                    <input style="width: 250px;height: 30px;" id="txtDT" type="text" name="DienThoai" placeholder="Ảnh TT" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="insertKhachHang();">
+                                        Thêm mới
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:200px">Mã TT cần sửa: </td>
+                                <td>
+                                    <input id="txtsuama" style="width:250px; height:30px;" type="text" name="MaKhach" placeholder="Mã TT" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width:30px">Tiêu đề sửa: </td>
+                                <td>
+                                    <input id="txtsuaten" style="width:250px; height:30px;" type="text" name="TenKhach" placeholder="Tiêu đề" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Giới thiệu sửa: </td>
+                                <td>
+                                    <input id="txtsuagioithieu" style="width:250px; height:30px;" type="text" name="DienThoai" placeholder="Giới thiệu" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ngày tạo sửa: </td>
+                                <td>
+                                    <input id="txtsuangaytao" style="width:250px; height:30px;" type="text" name="DiaChi" placeholder="Ngày tạo" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Username sửa: </td>
+                                <td>
+                                    <input id="txtsuausername" style="width:250px; height:30px;" type="text" name="DienThoai" placeholder="Username Admin" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Ảnh TT sửa: </td>
+                                <td>
+                                    <input id="txtsuaanhtt" style="width:250px; height:30px;" type="text" name="DienThoai" placeholder="Ảnh TT" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="UpdateDL();">
+                                        Sửa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table">
+                        <tbody class="form-control">
+                            <tr>
+                                <td style="width:150px">Mã TT: </td>
+                                <td>
+                                    <input id="txtxoa" type="text" name="MaKhach" placeholder="Mã TT" />
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="DeleteDL();">
+                                        Xóa
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table" style="border:none">
+                        <tbody class="form-control">
+                            <tr>
+                                <td>Tiêu đề cần tìm kiếm: </td>
+                                <td>
+                                    <input id="txttttimkiem" type="text" name="MaKhach" placeholder="Tiêu đề" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="btn btn-danger rounded" style="background-color:forestgreen"
+                                            onclick="timtt();">
+                                        Tìm
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-9">
+            <h3 style="text-align:center;">Danh Sách Tin Tức</h3>
+            <table id="tSach" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã TT</th>
+                        <th>Tiêu đề</th>
+                        <th>Giới thiệu</th>
+                        <th>Ngày tạo</th>
+                        <th>Username</th>
+                        <th>Ảnh TT</th>
+                    </tr>
+                </thead>
+                <tbody id="allTT"></tbody>
+            </table>
+        </div>
+    </div>
+    <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
+    <script src="~/Amado/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="~/Amado/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="~/Amado/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="~/Amado/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="~/Amado/js/active.js"></script>
+    
+</body>
+</html>
+

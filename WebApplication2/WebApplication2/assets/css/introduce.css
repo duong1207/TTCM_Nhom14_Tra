@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "SVN-Athena_0";
+  src: url("../fonts/SVN-Athena_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SVN-Artful Beauty";
+  src: url("../../fonts/SVN-Artful\ Beauty.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/Gotham-Medium.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Thin";
+  src: url("../fonts/Gotham-Thin.otf");
+}
+
+@font-face {
+  font-family: "MULI-REGULAR";
+  src: url("../fonts/MULI-REGULAR.TTF");
+}
+
+.wrapper__banner-gt {
+  position: relative;
+}
+
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  line-height: 10px;
+}
+
+.banner-img {
+  padding: 80px 0 0 0;
+}
+
+.banner-title > h2 {
+  color: #aabc44;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.banner-title > span {
+  font-size: 40px;
+}
+
+.wrapper__intro {
+  margin-bottom: 100px;
+  background-image: url(../img/introduce/banner02.jpg);
+  background-repeat: no-repeat;
+}
+
+.wrapper__intro h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.wrapper__intro .intro-desc p {
+  font-size: 24px;
+  color: #222222;
+  font-family: "SVN-Athena_0";
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper__intro .intro-desc p {
+    font-size: 18px;
+    color: #222222;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper__intro .intro-desc p {
+    font-size: 20px;
+    color: #222222;
+  }
+}

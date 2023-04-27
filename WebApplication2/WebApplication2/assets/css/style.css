@@ -1,0 +1,580 @@
+@font-face {
+  font-family: "SVN-Athena_0";
+  src: url("../fonts/SVN-Athena_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SVN-Artful Beauty";
+  src: url("../../fonts/SVN-Artful\ Beauty.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/Gotham-Medium.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Thin";
+  src: url("../fonts/Gotham-Thin.otf");
+}
+
+@font-face {
+  font-family: "MULI-REGULAR";
+  src: url("../fonts/MULI-REGULAR.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SVN-Athena_0";
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p,
+div {
+  font-family: "MULI-REGULAR";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "SVN-Athena_0";
+}
+
+/* HEADER  */
+
+.wrapper__navication {
+  background-color: #fff;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.wrapper__navication .navBar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.navBar .nav-list {
+  display: inline-flex;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li:hover:after {
+  content: "";
+  width: 25%;
+  height: 3px;
+  background-color: #899a29;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.8rem;
+  margin-left: 3rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+.icon.close-btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: #000000;
+}
+
+/* BANNER  */
+
+.wrapper__banner {
+  padding-top: 8rem;
+}
+
+.wrapper__banner .glide__arrow {
+  padding: 1rem 1rem;
+  opacity: 0;
+  border: none;
+  background-color: #aabc44;
+  transition: all 0.5s ease-in-out 0.2s;
+}
+
+.glide__arrow:hover {
+  background-color: #fff;
+}
+
+.glide__arrow--left {
+  left: 1rem;
+}
+
+.glide__arrow--right {
+  position: absolute;
+  right: 1rem;
+}
+
+.wrapper__banner:hover .glide__arrow {
+  opacity: 1;
+}
+
+.wrapper__banner:hover .glide__arrow--left {
+  left: 2rem;
+}
+
+.wrapper__banner:hover .glide__arrow--right {
+  right: 2rem;
+}
+
+.wrapper__banner .glide__arrow i {
+  height: 1rem;
+  width: 1rem;
+  color: #aabc44;
+}
+
+.wrapper__banner .glide__arrow {
+  border-radius: 50%;
+}
+
+.wrapper__banner .glide__slide {
+  position: relative;
+}
+
+.wrapper__banner .glide__slide .glide-title {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.glide__slide .glide-title .btn-banner {
+  background-color: #aabc44;
+  font-size: 1.5rem;
+  color: #222;
+  padding: 10px 8px;
+}
+
+.glide__slide .glide-title span {
+  font-size: 9rem;
+  font-family: "SVN-Artful Beauty";
+  color: #aabc44;
+}
+
+.glide__slide .glide-title p {
+  width: 50%;
+  font-size: 1.6rem;
+}
+
+.glide__slide .glide-title a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* --------------------------------------------------------- */
+.slider-img {
+  height: 500px;
+  margin-bottom: 20px;
+}
+.slider-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.slider-img-title {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 0;
+}
+.slick-arrow {
+  padding: 20px 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: grey;
+  z-index: 2;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+}
+.slick-arrow:hover {
+  background-color: var(--main-color);
+}
+.slick-dots {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0 20px;
+  list-style: none;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #eee;
+  border: none;
+  outline: none;
+}
+.slick-dots .slick-active button {
+  background-color: var(--main-color);
+}
+.slider-item {
+  position: relative;
+}
+.slider-item .slider-img-title {
+  position: absolute;
+  top: 100px;
+}
+.slider-item .slider-img-desc {
+  position: absolute;
+  bottom: 150px;
+  width: 400px;
+  text-align: justify;
+}
+.slider-item a {
+  position: absolute;
+  text-decoration: none;
+  padding: 15px 25px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  bottom: 80px;
+}
+.slider-item a:hover {
+  background-color: #878787;
+  color: var(--black-color);
+}
+/* PRODUCT INDEX  */
+
+.wrapper__product-hot {
+  background-image: url(../images/trang-chu/bgSanpham.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper__product-hot h2 {
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.glide-product .glide__slides .glide__slide {
+  text-align: center;
+  margin-right: 2rem;
+}
+
+/* GIỚI THIÊU */
+
+.wrapper__gioi-thieu {
+  /* background-image: url(../images/trang-chu/background22.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+  position: relative;
+}
+
+.wrapper__gioi-thieu .desc--title h4 {
+  color: #43782b;
+  font-family: "SVN-Artful Beauty";
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.wrapper__gioi-thieu h2 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.wrapper__gioi-thieu .desc--title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.wrapper__gioi-thieu .desc--title p {
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.btn-gioi-thieu {
+  padding: 0.6rem 2rem;
+  font-size: 1.6rem;
+  background-color: #899a29;
+  border: none;
+}
+
+/* NGHỆ NHÂN TRÀ ĐẠO  */
+
+.nghe-nhan {
+  background-image: url(../images/trang-chu/bannernghenhan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nghe-nhan h2 {
+  text-align: center;
+  padding: 3rem 0;
+  font-size: 3rem;
+}
+
+.nghe-nhan .glide__nghe-nhan .glide__slide {
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.nghe-nhan .glide__nghe-nhan .glide__slide .nghe-nhan--title {
+  margin-top: 1rem;
+}
+
+.nghe-nhan .glide__nghe-nhan .glide__slide .nghe-nhan--title p {
+  font-size: 1.3rem;
+}
+
+.mua-ngay {
+  padding: 5rem 14rem 5rem 14rem;
+}
+
+.mua-ngay .form-control {
+  border: 2px solid #899a29;
+  padding: 8px 0;
+}
+
+.mua-ngay .btn__mua-ngay {
+  background-color: #899a29;
+  color: #222222;
+  border: none;
+  font-size: 13px;
+  padding: 7px 30px;
+}
+
+/* FOOTER  */
+
+.footer-top {
+  background-image: url(../images/trang-chu/fotter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+.footer-top .about-us a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 1.6rem;
+}
+
+.footer-top p {
+  margin-bottom: 2px;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .icon {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navBar {
+    padding: 0 2rem;
+  }
+  .navBar .nav-list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    max-width: 40rem;
+    background-color: #fff;
+    display: block;
+    padding: 4rem 0;
+    text-align: center;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .navBar .nav-list.active {
+    left: 0%;
+  }
+  .navBar .nav-list li {
+    margin-top: 4.5rem;
+  }
+  .navBar .nav-list li a {
+    font-size: 2rem;
+    margin-left: 0px;
+  }
+  .wrapper__gioi-thieu h2 {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .wrapper__gioi-thieu .desc--title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  .wrapper__gioi-thieu .desc--title p {
+    width: 50%;
+    font-size: 1.5rem;
+  }
+  .wrapper__gioi-thieu .desc--title h4 {
+    color: #43782b;
+    font-family: "SVN-Artful Beauty";
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+  .btn-gioi-thieu {
+    padding: 0.6rem 2rem;
+    font-size: 1.2rem;
+    background-color: #899a29;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper__banner img {
+    height: 20rem;
+  }
+  .wrapper__banner .glide__slide .glide-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .wrapper__banner h2 {
+    font-size: 1.6rem;
+  }
+  .glide__slide .glide-title span {
+    font-size: 2rem;
+    font-family: "SVN-Artful Beauty";
+    color: #43782b;
+  }
+  .glide__slide .glide-title p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .wrapper__gioi-thieu h2 {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .wrapper__gioi-thieu .desc--title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+  }
+  .wrapper__gioi-thieu .desc--title p {
+    width: 90%;
+    font-size: 1rem;
+  }
+  .wrapper__gioi-thieu .desc--title h4 {
+    color: #43782b;
+    font-family: "SVN-Artful Beauty";
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .btn-gioi-thieu {
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    background-color: #899a29;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .wrapper__banner img {
+    height: 20rem;
+  }
+  .wrapper__banner .glide__slide .glide-title {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .wrapper__banner h2 {
+    font-size: 1.6rem;
+  }
+  .glide__slide .glide-title span {
+    font-size: 2rem;
+    font-family: "SVN-Artful Beauty";
+    color: #43782b;
+  }
+  .glide__slide .glide-title p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .wrapper__gioi-thieu h2 {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .wrapper__gioi-thieu .desc--title {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+  }
+  .wrapper__gioi-thieu .desc--title p {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .wrapper__gioi-thieu .desc--title h4 {
+    color: #43782b;
+    font-family: "SVN-Artful Beauty";
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .btn-gioi-thieu {
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    background-color: #899a29;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mua-ngay h2 {
+    font-size: 16px;
+  }
+  .mua-ngay {
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  .mua-ngay .btn__mua-ngay {
+    margin-top: 5px;
+  }
+}

@@ -1,0 +1,231 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Đăng ký tài khoản</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script type="text/javascript" src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            SortName();
+        });
+        function SortName() {
+
+            $.ajax({
+                url: `https://localhost:44336/api/khachhang/`,
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    console.log(response);
+                },
+                success: function (reponse) {
+                    reponse.sort(function (a, b) {
+                        var nameA = a.TenKH.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        var nameB = b.TenKH.toUpperCase(); // Chuyển tên thành chữ in hoa để sắp xếp
+                        if (nameA < nameB) {
+                            return -1;
+                        }
+                        if (nameA > nameB) {
+                            return 1;
+                        }
+                        return 0;
+                    });
+
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+                        table = table + '<tr>';
+                        
+                        table = table + '<td>' + reponse[i].TenKH + '</td>';
+                        table = table + '<td>' + reponse[i].Diachi + '</td>';
+                        table = table + '<td>' + reponse[i].SDT + '</td>';
+                        table = table + '<td>' + reponse[i].Username_khach + '</td>';
+                        table = table + '<td>' + reponse[i].Password_khach + '</td>';
+                        table = table + '<td>' + reponse[i].MaKH + '</td>';
+                        table = table + '</tr>';
+                    }
+                    $('#allSort').html(table);
+                }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetAllKhachhang();
+        });
+        function GetAllKhachhang() {
+            $.ajax({
+                url: 'https://localhost:44336/api/khachhang/',
+                method: 'GET',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) { },
+                success: function (reponse) {
+                    const len = reponse.length;
+                    console.log(reponse);
+                    let table = '';
+                    for (var i = 0; i < len; ++i) {
+
+                        table = table + '<div class="form-group last mb-4">';
+                        table = table + '<label for="username">' + reponse[i].TenKH + '</label>';
+                        table = table + '</div>';
+                        table = table + ' <div class="form-group last mb-4">';
+                        table = table + '<label for="username">' + reponse[i].Diachi + '</label>';
+                        table = table + ' <input type="username" class="form-control" id="username" />';
+                        table = table + '</div>';
+                        table = table + '<div class="form-group first">';
+
+                        table = table + '<label for="username">' + reponse[i].SDT + ' </label>';
+
+                        table = table + ' <input type="text" class="form-control" id="username" />';
+                        table = table + ' </div>';
+                        table = table + '<div class="form-group last mb-4">';
+                        table = table + '<label for="username">' + reponse[i].Username_khach + '</label>';
+                        table = table + '</div>';
+                        table = table + '<div class="form-group last mb-4">';
+                        table = table + '<label for="username">' + reponse[i].Password_khach + '</label>';
+                        table = table + '</div>';
+                        table = table + '<div class="form-group last mb-4">';
+                        table = table + '<label for="username">' + + reponse[i].MaKH + '</label>';
+                        table = table + '</div>';
+
+
+
+
+
+
+                    }
+                    document.getElementById('allKH').innerHTML = table;
+                },
+                fail: function (response) { }
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTPPOST
+        function insertKhachHang() {
+            var url = 'https://localhost:44336/api/khachhang?name=' + $('input').eq(0).val() +
+                '&diachi=' + $('input').eq(1).val() + '&sdt=' + $('input').eq(2).val() +
+                '&userkhach=' + $('input').eq(3).val() + '&passkhach=' + $('input').eq(4).val() +
+                '&id=' + $('input').eq(5).val();
+            $.ajax({
+                url: url,
+                method: 'POST',
+                contentType: 'json',
+                dataType: 'json',
+                error: function (response) {
+                    alert("Đăng ký không thành công");
+
+                },
+                success: function (reponse) {
+                    alert("Đăng ký thành công");
+                    GetAllKhachhang();
+                    SortName();
+                }
+            });
+        }
+    </script>
+
+
+</head>
+<body>
+    
+      
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 order-md-2">
+                        <img src="~/assets/img/undraw_file_sync_ot38.svg"
+                             alt="Image"
+                             class="img-fluid" />
+                    </div>
+                    <div class="col-md-6 contents">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="mb-4">
+                                    
+                                  
+                                </div>
+                                <form action="#" method="post">
+                                    <div class="form-group first">
+                                        <label for="username">Họ và tên</label>
+                                        <input type="text" class="form-control" id="username" />
+                                    </div>
+                                    <div class="form-group last mb-4">
+                                        <label for="username">Địa chỉ</label>
+                                        <input type="text" class="form-control" id="username" />
+                                    </div>
+                                    <div class="form-group first">
+                                        <label for="username">Điện thoại </label>
+                                        <input type="text" class="form-control" id="username" />
+                                    </div>
+
+                                    <div class="form-group first">
+                                        <label for="username">Tài khoản</label>
+                                        <input type="text" class="form-control" id="username" />
+                                    </div>
+                                    <div class="form-group last mb-4">
+                                        <label for="password">Mật khẩu</label>
+                                        <input type="password" class="form-control" id="password" />
+                                    </div>
+                                    <div class="form-group first">
+                                        <label for="password">Nhắc lại mật khẩu</label>
+                                        <input type="password" class="form-control" id="password" />
+                                    </div>
+
+                                    <div class="d-flex mb-5 align-items-center">
+                                        <label class="control control--checkbox mb-0">
+                                            <span class="caption">Remember me</span>
+                                            <input type="checkbox" checked="checked" />
+                                        </label>
+                                        <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span>
+                                    </div>
+
+                                    <button class="btn btn-danger rounded" style="background-color: forestgreen;"
+                                            onclick="insertKhachHang();">
+                                        Đăng ký
+                                        
+
+                                    </button>
+                                    <div>
+                                        @Html.ActionLink("Back to Login", "Loginkh")
+                                    </div>
+
+
+
+
+                                    <div class="social-login">
+                                        <a href="#" class="facebook">
+                                            <span class="icon-facebook mr-3"></span>
+                                        </a>
+                                        <a href="#" class="twitter">
+                                            <span class="icon-twitter mr-3"></span>
+                                        </a>
+                                        <a href="#" class="google">
+                                            <span class="icon-google mr-3"></span>
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="~/assets/js/jquery-3.3.1.min.js"></script>
+        <script src="~/assets/js/popper.min.js"></script>
+        <script src="~/assets/js/bootstrap.min.js"></script>
+        <script src="~/assets/js/main.js"></script>
+    </div>
+</body>
+</html>

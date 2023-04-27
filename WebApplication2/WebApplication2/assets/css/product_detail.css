@@ -1,0 +1,52 @@
+.wrapper__productDetails {
+  padding-top: 10rem;
+}
+
+.wrapper__productDetails h4 {
+  font-size: 3rem;
+}
+
+.wrapper__productDetails .item_producDetail p {
+  font-size: 1.4rem;
+  font-family: "SVN-Athena_0";
+  color: #222222;
+}
+
+.wrapper__productDetails .item_producDetail .star span {
+  color: #899a29;
+}
+
+.wrapper__productDetails .item_producDetail .price {
+  padding: 20px 0;
+}
+
+.wrapper__productDetails .item_producDetail .price span {
+  font-size: 2rem;
+  color: #222222;
+  margin-right: 1rem;
+}
+
+.wrapper__productDetails .item_producDetail .price #khoiLuong {
+  border: none;
+}
+
+.wrapper__productDetails .item_producDetail .desc h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.wrapper__san-pham-lien-quan {
+  position: relative;
+}
+
+.wrapper__san-pham-lien-quan .glide__arrows {
+  top: 50%;
+}
+
+.wrapper__san-pham-lien-quan .glide__arrows .glide__arrow--left {
+  left: 3rem;
+}
+
+.wrapper__san-pham-lien-quan .glide__arrows .glide__arrow--right {
+  right: 3rem;
+}

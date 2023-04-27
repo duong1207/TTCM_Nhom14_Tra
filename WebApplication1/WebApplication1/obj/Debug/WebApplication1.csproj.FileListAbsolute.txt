@@ -1,0 +1,1141 @@
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Buffers.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Memory.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Buffers.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Memory.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+E:\TTCM\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+E:\TTCM\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+E:\TTCM\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\WebGrease.dll
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+E:\TTCM\New folder\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Buffers.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Memory.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebGrease.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Buffers.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Memory.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Buffers.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Memory.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Buffers.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Memory.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\TTCM\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Buffers.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Memory.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\WebGrease.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Buffers.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Memory.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Admin\Desktop\TTCM-BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Buffers.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Memory.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Buffers.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Memory.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\TTCM\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Buffers.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Memory.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Buffers.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Memory.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\The_Third_Year_Semester_2\Internship\TTCM_TRA_BE\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Globalization.Calendars.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Http.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Net.Sockets.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Buffers.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ComponentModel.Annotations.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Memory.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Json.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ValueTuple.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Razor.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\WebGrease.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Antlr3.Runtime.pdb
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.DependencyModel.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.ObjectPool.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Options.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Extensions.Primitives.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.Net.Http.Headers.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Buffers.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Memory.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Numerics.Vectors.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Encodings.Web.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Text.Json.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Threading.Tasks.Extensions.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.ValueTuple.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Helpers.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Mvc.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Optimization.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.Razor.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\System.Web.WebPages.Razor.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\TTCM\TTCM_TRA_Final\TTCM_TRA_BE\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
